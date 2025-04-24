@@ -1,0 +1,10 @@
+.my_btn {
+    display: block;
+}
+
+
+@media (max-width : 600px){
+    .my_btn {
+        display: none ;
+    }
+}
