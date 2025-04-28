@@ -11,12 +11,12 @@ import Logo from "../../assets/Images/Logo.png";
 import { Color } from "../../assets/Colors/Color";
 import "./Header.css";
 
-const Header = ({value}) => {
+const Header = (props) => {
   return (
     <>
       <div className="w-full">
         <Navbar
-          className="mx-auto py-5 lg:px-[80px] border-2 border-[#0B0E12] "
+          className="mx-auto py-5 lg:px-[80px]"
           style={{ backgroundColor: Color.backGround, }}
         >
           <NavbarBrand href="#">
@@ -27,7 +27,9 @@ const Header = ({value}) => {
             />
           </NavbarBrand>
           <div className="flex md:order-2">
-           <Button value={value}/>
+            <button className="bg-[#335DD2] w-[104px] h-[48px] rounded-[8px] text-[#FFFFFF] text-[16px] font-[600px]">
+              REGISTER
+            </button>
             <NavbarToggle />
           </div>
           <NavbarCollapse>
