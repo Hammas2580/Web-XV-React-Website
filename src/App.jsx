@@ -5,6 +5,7 @@ import Slider from "./Components/SliderSection/Slider";
 import About from "./Components/AboutSection/About";
 import Chart from "./Components/ChartSection/Chart";
 import Token from "./Components/TokenSection/Token";
+import  Footer from "./Components/FooterSection/Footer";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <About/>
       <Chart/>
       <Token/>
+      <Footer/>
     </div>
   );
 };

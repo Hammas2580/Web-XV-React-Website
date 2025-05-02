@@ -3,7 +3,7 @@ import Register from '../RegisterBtn/Register'
 
 const Token = () => {
     return (
-        <div className='bg-[#0B0E12] w-full h-[480px]'>
+        <div className='bg-[#0B0E12] w-full h-[380px]'>
             <h1 className=' text-white text-center justify-center'>
                 <h2 className='text-[28px] sm:text-[56px] text-[#FFFFFF] font-medium lg:leading-[56px]'>With XV Token The</h2>
                 <h2 className='text-[28px] sm:text-[56px] text-[#FFFFFF] font-medium lg:leading-[56px]'>Possibilities Are Limitless</h2>
