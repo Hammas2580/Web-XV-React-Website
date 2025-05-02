@@ -1,6 +1,7 @@
 import React from "react";
 import BannerImages from "../../assets/Images/bannerImages.png";
 import { Button, TextInput } from "flowbite-react";
+import Register from "../RegisterBtn/Register";
 
 const Hero = () => {
   return (
@@ -20,9 +21,10 @@ const Hero = () => {
           </p>
 
           <div className="mt-6">
-            <Button className="w-full sm:w-[200px] h-[56px] bg-[#335DD2] rounded-[8px] text-white text-[18px]">
+            {/* <Button className="w-full sm:w-[200px] h-[56px] bg-[#335DD2] rounded-[8px] text-white text-[18px]">
               REGISTER NOW
-            </Button>
+            </Button> */}
+            <Register/>
           </div>
         </div>
       </div>
