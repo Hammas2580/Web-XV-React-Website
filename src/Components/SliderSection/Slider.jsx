@@ -9,7 +9,7 @@ import SliderImages7 from "../../assets/Images/sliderImages7.png";
 
 const Slider = () => {
     return (
-        <div className="bg-[#0B0E12] w-full h-auto py-10">
+        <div className="bg-[#0B0E12] w-full h-auto py-5">
 
             {/* Heading */}
             <div className="flex justify-center pt-8 sm:pt-[80px]">
@@ -19,7 +19,7 @@ const Slider = () => {
             </div>
 
             {/* Images */}
-            <div className="flex flex-wrap justify-center gap-6 sm:gap-5 pt-8 px-4">
+            <div className="flex flex-wrap justify-center gap-[20px] sm:gap-5 pt-8 px-4">
                 <img className="w-[100px] sm:w-[152px] h-[40px] object-contain" src={SliderImages1} alt="Partner 1" />
                 <img className="w-[100px] sm:w-[152px] h-[40px] object-contain" src={SliderImages2} alt="Partner 2" />
                 <img className="w-[100px] sm:w-[152px] h-[40px] object-contain" src={SliderImages3} alt="Partner 3" />
